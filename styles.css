@@ -1,0 +1,22 @@
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    align-items: center;
+    justify-content: center;
+}
+.grid img {
+    height: 150px;
+    width: 150px;
+}
+h3 {
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+}
+h3 >:last-child {
+    margin-left: auto;
+}
+.disabled{
+    pointer-events: none;
+}
